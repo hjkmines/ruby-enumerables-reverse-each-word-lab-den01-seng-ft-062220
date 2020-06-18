@@ -1,3 +1,19 @@
+
+
+def reverse_each_word(string)
+  
+  string 
+
+
+
+
+
+
+
+
+
+
+
 def reverse_each_word(string)
   
   reversed_array = []
