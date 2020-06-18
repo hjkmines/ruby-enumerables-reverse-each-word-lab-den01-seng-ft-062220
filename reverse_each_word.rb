@@ -3,12 +3,13 @@ require 'pry'
 def reverse_each_word(string)
   
   converted_array = string.split(" ") 
+  new_array = []
 
   converted_array.each do |x| 
-    x.reverse 
+    new_array.push(x.reverse) 
   end 
   
-  converted_array
+  new_array
   binding.pry 
   puts ''
 end 
