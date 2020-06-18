@@ -9,7 +9,7 @@ def reverse_each_word(string)
     new_array.push(x.reverse) 
   end 
   
-  new_array
+  new_array.join(" ")
   binding.pry 
   puts ''
 end 
